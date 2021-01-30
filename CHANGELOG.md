@@ -1,3 +1,11 @@
+## [1.1.1](https://github.com/AndrewTriesToCode/GithubActionsSandbox/compare/v1.1.0...v1.1.1) (2021-01-30)
+
+
+### Bug Fixes
+
+* error in releaserc ([61d3878](https://github.com/AndrewTriesToCode/GithubActionsSandbox/commit/61d3878f6b9d021275da17b026f466d715652580))
+* test of the automatic-release ([64c97d0](https://github.com/AndrewTriesToCode/GithubActionsSandbox/commit/64c97d01f7fbc4b4d6654bf6f8935a3011dae2b4))
+
 # [1.1.0](https://github.com/AndrewTriesToCode/GithubActionsSandbox/compare/v1.0.0...v1.1.0) (2021-01-30)
 
 
