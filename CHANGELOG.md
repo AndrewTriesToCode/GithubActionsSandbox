@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/AndrewTriesToCode/GithubActionsSandbox/compare/v1.0.0...v1.1.0) (2021-01-30)
+
+
+### Features
+
+* fixed some stuff! ([b90c1f5](https://github.com/AndrewTriesToCode/GithubActionsSandbox/commit/b90c1f595b38252d4c643ac2b41e1b6df6d50e8f))
+
 # 1.0.0 (2021-01-30)
 
 
