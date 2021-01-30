@@ -32,5 +32,5 @@ jobs:
         GH_TOKEN: ${{ secrets.GH_TOKEN }}
       run: npx semantic-release
     - name: push nugets
-      run: echo 'Pretend I pushed nugets'
+      run: echo 'Pretend I pushed nugets ok'
 
