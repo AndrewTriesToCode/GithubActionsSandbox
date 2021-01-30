@@ -1,3 +1,32 @@
+# 1.0.0 (2021-01-30)
+
+
+### Features
+
+* add math adding capability ([de110b7](https://github.com/AndrewTriesToCode/GithubActionsSandbox/commit/de110b76906d88aa15b5b8a0bc86993d79abffd7))
+* this is a test ([e3f18df](https://github.com/AndrewTriesToCode/GithubActionsSandbox/commit/e3f18df300a83bdea400218ee8ceae5a851c1f84))
+
+# [1.1.0](https://github.com/AndrewTriesToCode/GithubActionsSandbox/compare/v1.0.0...v1.1.0) (2021-01-30)
+
+
+### Features
+
+* this is a test ([e3f18df](https://github.com/AndrewTriesToCode/GithubActionsSandbox/commit/e3f18df300a83bdea400218ee8ceae5a851c1f84))
+
+# [1.1.0](https://github.com/AndrewTriesToCode/GithubActionsSandbox/compare/v1.0.0...v1.1.0) (2021-01-30)
+
+
+### Features
+
+* this is a test ([e3f18df](https://github.com/AndrewTriesToCode/GithubActionsSandbox/commit/e3f18df300a83bdea400218ee8ceae5a851c1f84))
+
+# [1.1.0](https://github.com/AndrewTriesToCode/GithubActionsSandbox/compare/v1.0.0...v1.1.0) (2021-01-30)
+
+
+### Features
+
+* this is a test ([e3f18df](https://github.com/AndrewTriesToCode/GithubActionsSandbox/commit/e3f18df300a83bdea400218ee8ceae5a851c1f84))
+
 # Changelog
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
