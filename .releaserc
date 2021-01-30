@@ -4,11 +4,13 @@
     "@semantic-release/release-notes-generator",
     "@semantic-release/changelog",
     ["@semantic-release/exec", {
-
+      "prepareCmd": "sed -i 's/<Version>.*<\/Version>/<Version>${nextRelease.version}<\/Version>/' Directory.Build.Props"
     }],
-    "@semantic-release/git",
+    ["@semantic-release/git", {
+      "assets": ["changelog.md", "Directory.Build.Props"]
+    }],
     "@semantic-release/github",
   ],
   "ci": false,
-  "dryRun": false
+  "dryRun": true
 }
