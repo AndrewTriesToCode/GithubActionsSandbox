@@ -1,3 +1,10 @@
+## [1.3.3](https://github.com/AndrewTriesToCode/GithubActionsSandbox/compare/v1.3.2...v1.3.3) (2021-01-31)
+
+
+### Bug Fixes
+
+* fix for deploy ([a0b3eb2](https://github.com/AndrewTriesToCode/GithubActionsSandbox/commit/a0b3eb241ce5363a558a35d92fe8292c82b3ab2f))
+
 ## [1.3.2](https://github.com/AndrewTriesToCode/GithubActionsSandbox/compare/v1.3.1...v1.3.2) (2021-01-31)
 
 
