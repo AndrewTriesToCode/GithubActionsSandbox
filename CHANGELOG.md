@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/AndrewTriesToCode/GithubActionsSandbox/compare/v1.2.0...v1.2.1) (2021-01-31)
+
+
+### Bug Fixes
+
+* change to release config for pack ([9ba3364](https://github.com/AndrewTriesToCode/GithubActionsSandbox/commit/9ba33640f68777968beb895bdebcdc9c87bd7ef8))
+
 # [1.2.0](https://github.com/AndrewTriesToCode/GithubActionsSandbox/compare/v1.1.1...v1.2.0) (2021-01-31)
 
 
