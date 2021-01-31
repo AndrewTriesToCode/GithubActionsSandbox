@@ -39,6 +39,6 @@ jobs:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: npx semantic-release
       - name: Create the package
-        run: dotnet pack --no-build --include-symbols --output nupkgs
+        run: dotnet pack --no-build --include-symbols -c Release --output nupkgs
       - name: Publish the package to GPR
         run: dotnet nuget push nupkgs/*.nupkg
