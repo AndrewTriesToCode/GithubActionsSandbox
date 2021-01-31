@@ -6,10 +6,11 @@ on:
       - master
 
 jobs:
-  build-test-release:
+  build-test-prep:
     if: "!contains(github.event.head_commit.message, '[skip ci]')"
     runs-on: ubuntu-latest
     steps:
+    - name: checkout repo
     - uses: actions/checkout@v2
     - name: setup .net
       uses: actions/setup-dotnet@v1
@@ -31,6 +32,21 @@ jobs:
       env: 
         GH_TOKEN: ${{ secrets.GH_TOKEN }}
       run: npx semantic-release
-    - name: push nugets
-      run: echo 'Pretend I pushed nugets ok'
 
+  release:
+    needs: build-test-prep
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    # Authenticates packages to push to GPR
+    - uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: '5.0.x' # SDK Version to use.
+        source-url: https://nuget.pkg.github.com/andrewtriestocode/index.json
+      env:
+        NUGET_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+    - name: Create the package
+      run: dotnet pack --configuration Release --include-symbols
+    - name: Publish the package to GPR
+      run: dotnet nuget push bin/Release/*.nupkg
