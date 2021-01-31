@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/AndrewTriesToCode/GithubActionsSandbox/compare/v1.2.1...v1.3.0) (2021-01-31)
+
+
+### Features
+
+* added repo url ([2c5c217](https://github.com/AndrewTriesToCode/GithubActionsSandbox/commit/2c5c2178570e8410306a85adb14304224bf82fdf))
+
 ## [1.2.1](https://github.com/AndrewTriesToCode/GithubActionsSandbox/compare/v1.2.0...v1.2.1) (2021-01-31)
 
 
