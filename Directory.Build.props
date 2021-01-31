@@ -2,5 +2,6 @@
     <PropertyGroup>
         <Version>1.2.1</Version>
         <Authors>Finbuckle LLC</Authors>
+        <RepositoryUrl>https://github.com/AndrewTriesToCode/GithubActionsSandbox</RepositoryUrl>
     </PropertyGroup>
 </Project>
