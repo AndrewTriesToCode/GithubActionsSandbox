@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/AndrewTriesToCode/GithubActionsSandbox/compare/v1.3.0...v1.3.1) (2021-01-31)
+
+
+### Bug Fixes
+
+* removed version from csproj file ([03c5bee](https://github.com/AndrewTriesToCode/GithubActionsSandbox/commit/03c5bee00da20b93f7b15a93abf8e7ec3dadf80f))
+
 # [1.3.0](https://github.com/AndrewTriesToCode/GithubActionsSandbox/compare/v1.2.1...v1.3.0) (2021-01-31)
 
 
