@@ -22,8 +22,8 @@ jobs:
       - name: build and test
         run: |
           dotnet restore
-          dotnet build -c Release
-          dotnet test --no-build
+          dotnet build -c Release --no-restore
+          dotnet test --no-build -c Release
       - name: setup node
         uses: actions/setup-node@v2
         with:
