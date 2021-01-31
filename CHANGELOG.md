@@ -1,3 +1,15 @@
+# [1.2.0](https://github.com/AndrewTriesToCode/GithubActionsSandbox/compare/v1.1.1...v1.2.0) (2021-01-31)
+
+
+### Bug Fixes
+
+* nailed it ([2fdff00](https://github.com/AndrewTriesToCode/GithubActionsSandbox/commit/2fdff00b4badf37cd726e07ba6a66d5212d50c28))
+
+
+### Features
+
+* add nuget push ([06f8f45](https://github.com/AndrewTriesToCode/GithubActionsSandbox/commit/06f8f4577c21608f4c8ece7847c0ab346a6268d3))
+
 ## [1.1.1](https://github.com/AndrewTriesToCode/GithubActionsSandbox/compare/v1.1.0...v1.1.1) (2021-01-30)
 
 
