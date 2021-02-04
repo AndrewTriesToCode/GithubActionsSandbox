@@ -1,4 +1,5 @@
 #!/bin/bash
+# testing PR stuff
 
 versionRegex='^v([0-9]+)\.([0-9]+)\.([0-9]+)'
 if [[ $(git describe --tags --abbrev=0) =~ $versionRegex ]]
