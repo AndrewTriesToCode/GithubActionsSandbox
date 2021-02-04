@@ -1,11 +1,11 @@
-name: Automatic Release
+name: Pull Request - Run Tests
 
 on:
   pull_request:
     types: [opened, reopened, synchronize]
 
 jobs:
-  build-test:
+  run-tests:
     runs-on: ubuntu-latest
     steps:
       - name: checkout repo
@@ -15,7 +15,4 @@ jobs:
         with:
           dotnet-version: 5.0.x
       - name: build and test
-        run: |
-          dotnet restore
-          dotnet build -c Release --no-restore
-          dotnet test --no-build -c Release
+        run: dotnet test
